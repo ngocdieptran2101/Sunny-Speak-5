@@ -1,7 +1,5 @@
-SUNNY SPEAK 5 V4.3 – Giọng đọc mẫu + biểu tượng Unit
-
-1. Giải nén và tải index.html, data.js, thư mục assets lên thư mục gốc GitHub Pages.
-2. Giọng đọc mẫu: chọn giọng tiếng Anh có sẵn, chỉnh tốc độ, nhấn Nghe thử.
-3. Thanh bên trái: mỗi Unit có biểu tượng gợi chủ đề. Unit 2–20 vẫn chưa mở nội dung.
-4. Tính năng nghe mẫu dùng Web Speech API của trình duyệt, nên giọng đọc tùy máy.
-5. Không xóa data.js hoặc assets.
+SUNNY SPEAK 5 V5.0
+Upload index.html, data.js and assets/ to the ROOT of your GitHub Pages repository.
+Unit 1 includes cropped textbook artwork. Units 2-20 contain independently written practice based on Book map themes/structures, NOT complete textbook lesson transcription or images.
+Speech recognition works best on Chrome/Edge via HTTPS with microphone permission. Scores measure recognized-word matching, not certified pronunciation. Recording remains in browser memory.
+Created by Tran Ngoc Diep - Le Kim Lang Primary School.
