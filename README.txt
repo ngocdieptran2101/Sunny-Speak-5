@@ -1,5 +1,7 @@
-SUNNY SPEAK 5 V4.2 – Unit 1
-Bao gom index.html, data.js, assets/
-Moi: tuy chon Co doc nhan xet (doc loi khen bang giong tieng Anh), ghi am de nghe lai, dong Created by duoi trang.
-Ghi am dung MediaRecorder; khong tai am thanh len may chu. Phan nhan xet la phan hoi tu dong, khong phai giao vien truc tiep.
-Upload ca 3 thanh phan len GitHub Pages.
+SUNNY SPEAK 5 V4.3 – Giọng đọc mẫu + biểu tượng Unit
+
+1. Giải nén và tải index.html, data.js, thư mục assets lên thư mục gốc GitHub Pages.
+2. Giọng đọc mẫu: chọn giọng tiếng Anh có sẵn, chỉnh tốc độ, nhấn Nghe thử.
+3. Thanh bên trái: mỗi Unit có biểu tượng gợi chủ đề. Unit 2–20 vẫn chưa mở nội dung.
+4. Tính năng nghe mẫu dùng Web Speech API của trình duyệt, nên giọng đọc tùy máy.
+5. Không xóa data.js hoặc assets.
