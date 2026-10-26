@@ -2,75 +2,93 @@ const LESSONS = {
   "1": [
     {
       "name": "Look, listen and repeat",
-      "image": "lesson1-activity1.png",
       "items": [
         {
-          "text": "Hello, I’m Ben. Nice to meet you.",
-          "hint": "Ben chào Lan."
-        },
-        {
+          "image": "l1_a.png",
+          "question": "Hello, I’m Ben. Nice to meet you.",
+          "answer": "Hello, Ben. I’m Lan. Nice to meet you, too.",
           "text": "Hello, Ben. I’m Lan. Nice to meet you, too.",
-          "hint": "Lan đáp lời Ben."
+          "hint": "Tranh a: Ben chào và Lan đáp lời."
         },
         {
-          "text": "Can you tell me about yourself, Lan?",
-          "hint": "Ben hỏi Lan."
-        },
-        {
+          "image": "l1_b.png",
+          "question": "Can you tell me about yourself, Lan?",
+          "answer": "Well, I’m in Class 5C. I live in the countryside.",
           "text": "Well, I’m in Class 5C. I live in the countryside.",
-          "hint": "Lan giới thiệu."
+          "hint": "Tranh b: Ben hỏi – Lan trả lời."
         },
         {
+          "image": "l1_b.png",
+          "question": "I’m in Class 5B. I live in the city.",
+          "answer": "",
           "text": "I’m in Class 5B. I live in the city.",
-          "hint": "Ben giới thiệu."
+          "hint": "Tranh b: Ben nói về mình."
         }
       ]
     },
     {
       "name": "Listen, point and say",
-      "image": "lesson1-activity2.png",
       "items": [
         {
-          "text": "Can you tell me about yourself? I’m in Class 5A.",
-          "hint": "Tranh a – Class 5A"
+          "image": "l1_2a.png",
+          "question": "Can you tell me about yourself?",
+          "answer": "I’m in Class 5A.",
+          "text": "I’m in Class 5A.",
+          "hint": "Tranh a: Class 5A."
         },
         {
-          "text": "Can you tell me about yourself? I’m in Class 5B.",
-          "hint": "Tranh b – Class 5B"
+          "image": "l1_2b.png",
+          "question": "Can you tell me about yourself?",
+          "answer": "I’m in Class 5B.",
+          "text": "I’m in Class 5B.",
+          "hint": "Tranh b: Class 5B."
         },
         {
-          "text": "Can you tell me about yourself? I live in the city.",
-          "hint": "Tranh c – city"
+          "image": "l1_2c.png",
+          "question": "Can you tell me about yourself?",
+          "answer": "I live in the city.",
+          "text": "I live in the city.",
+          "hint": "Tranh c: city."
         },
         {
-          "text": "Can you tell me about yourself? I live in the countryside.",
-          "hint": "Tranh d – countryside"
+          "image": "l1_2d.png",
+          "question": "Can you tell me about yourself?",
+          "answer": "I live in the countryside.",
+          "text": "I live in the countryside.",
+          "hint": "Tranh d: countryside."
         }
       ]
     },
     {
       "name": "Let's talk",
-      "image": "lesson1-activity3.png",
       "items": [
         {
-          "text": "Can you tell me about yourself?",
-          "hint": "Em hỏi bạn về bản thân."
+          "image": "l1_3.png",
+          "question": "Can you tell me about yourself?",
+          "answer": "My name’s ...",
+          "text": "My name’s ...",
+          "hint": "Nói tên của em."
         },
         {
-          "text": "My name is ...",
-          "hint": "Điền tên của em."
-        },
-        {
+          "image": "l1_3.png",
+          "question": "Can you tell me about yourself?",
+          "answer": "I’m in Class ...",
           "text": "I’m in Class ...",
-          "hint": "Điền lớp của em."
+          "hint": "Nói lớp của em."
         },
         {
+          "image": "l1_3.png",
+          "question": "Can you tell me about yourself?",
+          "answer": "I live in the ...",
           "text": "I live in the ...",
           "hint": "Nói nơi em sống."
         },
         {
+          "image": "l1_3.png",
+          "question": "Can you tell me about yourself?",
+          "answer": "My birthday is in ...",
           "text": "My birthday is in ...",
-          "hint": "Nói tháng sinh."
+          "hint": "Nói tháng sinh của em."
         }
       ]
     }
@@ -78,75 +96,100 @@ const LESSONS = {
   "2": [
     {
       "name": "Look, listen and repeat",
-      "image": "lesson2-activity1.png",
       "items": [
         {
-          "text": "Where are you going, Mary?",
-          "hint": "Hỏi Mary."
-        },
-        {
+          "image": "l2_a.png",
+          "question": "Where are you going, Mary?",
+          "answer": "I’m going to the sports centre.",
           "text": "I’m going to the sports centre.",
-          "hint": "Mary trả lời."
+          "hint": "Tranh a: Hỏi và đáp về nơi đến."
         },
         {
-          "text": "What’s your favourite sport?",
-          "hint": "Hỏi môn thể thao yêu thích."
-        },
-        {
+          "image": "l2_b.png",
+          "question": "What’s your favourite sport?",
+          "answer": "It’s basketball. What about you?",
           "text": "It’s basketball. What about you?",
-          "hint": "Trả lời và hỏi lại."
+          "hint": "Tranh b: Hỏi và đáp về thể thao."
         },
         {
+          "image": "l2_b.png",
+          "question": "What about you?",
+          "answer": "My favourite sport is swimming.",
           "text": "My favourite sport is swimming.",
-          "hint": "Nói về sở thích."
+          "hint": "Tranh b: Nói môn thể thao yêu thích."
         }
       ]
     },
     {
       "name": "Listen, point and say",
-      "image": "lesson2-activity2.png",
       "items": [
         {
-          "text": "What’s your favourite sport? It’s table tennis.",
-          "hint": "Tranh a – sport / table tennis"
+          "image": "l2_2a.png",
+          "question": "What’s your favourite sport?",
+          "answer": "It’s table tennis.",
+          "text": "It’s table tennis.",
+          "hint": "Tranh a: sport / table tennis."
         },
         {
-          "text": "What’s your favourite colour? It’s pink.",
-          "hint": "Tranh b – colour / pink"
+          "image": "l2_2b.png",
+          "question": "What’s your favourite colour?",
+          "answer": "It’s pink.",
+          "text": "It’s pink.",
+          "hint": "Tranh b: colour / pink."
         },
         {
-          "text": "What’s your favourite animal? It’s a dolphin.",
-          "hint": "Tranh c – animal / dolphin"
+          "image": "l2_2c.png",
+          "question": "What’s your favourite animal?",
+          "answer": "It’s a dolphin.",
+          "text": "It’s a dolphin.",
+          "hint": "Tranh c: animal / a dolphin."
         },
         {
-          "text": "What’s your favourite food? It’s a sandwich.",
-          "hint": "Tranh d – food / sandwich"
+          "image": "l2_2d.png",
+          "question": "What’s your favourite food?",
+          "answer": "It’s a sandwich.",
+          "text": "It’s a sandwich.",
+          "hint": "Tranh d: food / a sandwich."
         }
       ]
     },
     {
       "name": "Let's talk",
-      "image": "lesson2-activity3.png",
       "items": [
         {
-          "text": "Can you tell me about yourself?",
-          "hint": "Hỏi bạn về bản thân."
+          "image": "l2_3.png",
+          "question": "Can you tell me about yourself?",
+          "answer": "My name’s ...",
+          "text": "My name’s ...",
+          "hint": "Em tự giới thiệu."
         },
         {
-          "text": "What’s your favourite sport?",
-          "hint": "Hỏi về môn thể thao."
+          "image": "l2_3.png",
+          "question": "What’s your favourite sport?",
+          "answer": "It’s ...",
+          "text": "It’s ...",
+          "hint": "Nói môn thể thao em thích."
         },
         {
-          "text": "What’s your favourite colour?",
-          "hint": "Hỏi về màu sắc."
+          "image": "l2_3.png",
+          "question": "What’s your favourite colour?",
+          "answer": "It’s ...",
+          "text": "It’s ...",
+          "hint": "Nói màu em thích."
         },
         {
-          "text": "What’s your favourite animal?",
-          "hint": "Hỏi về con vật."
+          "image": "l2_3.png",
+          "question": "What’s your favourite animal?",
+          "answer": "It’s ...",
+          "text": "It’s ...",
+          "hint": "Nói con vật em thích."
         },
         {
-          "text": "What’s your favourite food?",
-          "hint": "Hỏi về món ăn."
+          "image": "l2_3.png",
+          "question": "What’s your favourite food?",
+          "answer": "It’s ...",
+          "text": "It’s ...",
+          "hint": "Nói món ăn em thích."
         }
       ]
     }
@@ -154,83 +197,93 @@ const LESSONS = {
   "3": [
     {
       "name": "Listen and repeat",
-      "image": "lesson3-activity1.png",
       "items": [
         {
-          "text": "dolphin",
-          "hint": "Từ luyện trọng âm"
-        },
-        {
+          "image": "l3_1.png",
+          "question": "dolphin",
+          "answer": "I like dolphins.",
           "text": "I like dolphins.",
-          "hint": "Câu mẫu"
+          "hint": "Trọng âm từ dolphin."
         },
         {
-          "text": "tennis",
-          "hint": "Từ luyện trọng âm"
-        },
-        {
+          "image": "l3_1.png",
+          "question": "tennis",
+          "answer": "He plays tennis on Sundays.",
           "text": "He plays tennis on Sundays.",
-          "hint": "Câu mẫu"
+          "hint": "Trọng âm từ tennis."
         }
       ]
     },
     {
       "name": "Circle, listen and check",
-      "image": "lesson3-activity2.png",
       "items": [
         {
+          "image": "l3_2.png",
+          "question": "1. a. dolphin / b. giraffe / c. behind",
+          "answer": "",
           "text": "dolphin",
-          "hint": "Nhận biết trọng âm"
+          "hint": "Nhóm 1: luyện nghe và nhận diện trọng âm. Cần nghe audio Track 13 để xác định đáp án, không tự suy đoán."
         },
         {
-          "text": "tennis",
-          "hint": "Nhận biết trọng âm"
-        },
-        {
-          "text": "Japan",
-          "hint": "Nhận biết trọng âm"
-        },
-        {
+          "image": "l3_2.png",
+          "question": "2. a. Japan / b. July / c. England",
+          "answer": "",
           "text": "July",
-          "hint": "Nhận biết trọng âm"
+          "hint": "Nhóm 2: luyện nghe và nhận diện trọng âm. Cần nghe audio Track 13 để xác định đáp án, không tự suy đoán."
+        },
+        {
+          "image": "l3_2.png",
+          "question": "3. a. tennis / b. hello / c. goodbye",
+          "answer": "",
+          "text": "tennis",
+          "hint": "Nhóm 3: luyện nghe và nhận diện trọng âm. Cần nghe audio Track 13 để xác định đáp án, không tự suy đoán."
         }
       ]
     },
     {
       "name": "Let's chant",
-      "image": "lesson3-activity3.png",
       "items": [
         {
-          "text": "What’s your favourite animal?",
-          "hint": "Luyện nói theo nhịp"
-        },
-        {
+          "image": "l3_3a.png",
+          "question": "What’s your favourite animal?",
+          "answer": "Do you like pandas?",
           "text": "Do you like pandas?",
-          "hint": "Luyện nói theo nhịp"
+          "hint": "Đọc theo nhịp – đoạn 1."
         },
         {
+          "image": "l3_3a.png",
+          "question": "Do you like pandas?",
+          "answer": "No, I don’t. I don’t like pandas.",
           "text": "No, I don’t. I don’t like pandas.",
-          "hint": "Luyện nói theo nhịp"
+          "hint": "Đọc theo nhịp – đoạn 1."
         },
         {
+          "image": "l3_3a.png",
+          "question": "What animal do you like?",
+          "answer": "I like dolphins.",
           "text": "I like dolphins.",
-          "hint": "Luyện nói theo nhịp"
+          "hint": "Luyện tập theo nội dung bài chant."
         },
         {
-          "text": "What’s your favourite sport?",
-          "hint": "Luyện nói theo nhịp"
-        },
-        {
+          "image": "l3_3b.png",
+          "question": "What’s your favourite sport?",
+          "answer": "Do you like tennis?",
           "text": "Do you like tennis?",
-          "hint": "Luyện nói theo nhịp"
+          "hint": "Đọc theo nhịp – đoạn 2."
         },
         {
+          "image": "l3_3b.png",
+          "question": "Do you like tennis?",
+          "answer": "No, I don’t. I don’t like tennis.",
           "text": "No, I don’t. I don’t like tennis.",
-          "hint": "Luyện nói theo nhịp"
+          "hint": "Đọc theo nhịp – đoạn 2."
         },
         {
+          "image": "l3_3b.png",
+          "question": "What sport do you like?",
+          "answer": "I like football.",
           "text": "I like football.",
-          "hint": "Luyện nói theo nhịp"
+          "hint": "Luyện tập theo nội dung bài chant."
         }
       ]
     }
