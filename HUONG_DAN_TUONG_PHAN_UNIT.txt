@@ -1,0 +1,6 @@
+SUNNY SPEAK 5 – Điều chỉnh tương phản và bố cục Unit.
+- Tăng độ đậm màu chữ trên các thẻ và thông số tiến độ.
+- Sidebar desktop rộng 365–390px.
+- Unit: icon bên trái, số Unit và tên Unit trên hai hàng, tên Unit 15.5–16px, ưu tiên một dòng.
+- Không thay đổi mã xử lý học tập, Games, Shadowing, Free Talk hay lưu tiến độ.
+Giải nén toàn bộ ZIP rồi mở index.html.

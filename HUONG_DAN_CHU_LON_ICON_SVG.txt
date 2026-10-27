@@ -1,0 +1,4 @@
+SUNNY SPEAK 5 - Classroom Readability & Icons
+Font cơ bản 18–21px trên desktop, 17px trên điện thoại. Chữ đậm, tương phản cao. Nút, Unit và card lớn hơn. Icon SVG inline, hoạt động offline.
+Giữ nguyên mã chức năng, dữ liệu, Sam/Sun.
+Mở index.html sau khi giải nén.

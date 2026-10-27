@@ -1,0 +1,7 @@
+SUNNY SPEAK 5 - giao dien Pastel Modern
+Nen tang: ban SUNNY_SPEAK_5_SAM_SUN_SUA_HELLO.zip da duoc giao vien xac nhan.
+Chi bo sung stylesheet id=sunny-modern-pastel-v1. Khong thay doi logic, du lieu, Free Talk, Games hay Shadowing.
+Giao dien mac dinh luon sang ke ca he thong dang o Dark Mode.
+Giai nen ZIP, mo index.html. Micro can HTTPS khi su dung truc tuyen.
+Font uu tien Nunito/Quicksand, neu may khong co se dung font he thong.
+Khong can ket noi mang de hien thi giao dien.
